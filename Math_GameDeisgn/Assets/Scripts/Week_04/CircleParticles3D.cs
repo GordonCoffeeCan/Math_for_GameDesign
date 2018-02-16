@@ -34,11 +34,11 @@ public class CircleParticles3D : MonoBehaviour {
             CreatePoints();
         }
 
-        for (int i = 0; i < numberOfParticles; i++) {
+        /*for (int i = 0; i < numberOfParticles; i++) {
             Vector3 pos = points[i].position;
             pos = CircleUtility.ParticleOnSphere(radius, (speed * Time.time) + i, (speed * Time.time) + i);
             points[i].position = pos;
-        }
+        }*/
 
         myParticleSystem.SetParticles(points, points.Length);
 	}
