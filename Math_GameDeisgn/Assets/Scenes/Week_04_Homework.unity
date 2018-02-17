@@ -117,19 +117,6 @@ NavMeshSettings:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: e2e64bd04477fcb4fb1cf2851e20c5fc, type: 3}
   m_PrefabInternal: {fileID: 1464982603}
---- !u!114 &566090139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 566090138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f741900d46edf4098072a2b5df1c67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  radius: 0
 --- !u!1001 &724623743
 Prefab:
   m_ObjectHideFlags: 0
@@ -176,6 +163,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f75dad6d830424c4186994433da90065, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &724623744 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: f75dad6d830424c4186994433da90065, type: 3}
+  m_PrefabInternal: {fileID: 724623743}
 --- !u!1001 &935851019
 Prefab:
   m_ObjectHideFlags: 0
@@ -274,6 +265,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6602fe5162edb714b8ccd28b2adf861e, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &935851020 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 6602fe5162edb714b8ccd28b2adf861e, type: 3}
+  m_PrefabInternal: {fileID: 935851019}
 --- !u!1001 &1131361876
 Prefab:
   m_ObjectHideFlags: 0
@@ -324,6 +319,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e1937ef2992c0e48a92a9f5509e2bf7, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1131361877 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 1e1937ef2992c0e48a92a9f5509e2bf7, type: 3}
+  m_PrefabInternal: {fileID: 1131361876}
 --- !u!1001 &1311530370
 Prefab:
   m_ObjectHideFlags: 0
@@ -374,6 +373,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3857f0398a7b5494d936743c18d3dc8e, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1311530371 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 3857f0398a7b5494d936743c18d3dc8e, type: 3}
+  m_PrefabInternal: {fileID: 1311530370}
 --- !u!1001 &1414988811
 Prefab:
   m_ObjectHideFlags: 0
@@ -420,6 +423,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 36264199711dc554c90dc6d381a2434f, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1414988812 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 36264199711dc554c90dc6d381a2434f, type: 3}
+  m_PrefabInternal: {fileID: 1414988811}
 --- !u!1001 &1464982603
 Prefab:
   m_ObjectHideFlags: 0
@@ -570,6 +577,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9315e0ff6dd7c624a970a3bde3b2369a, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1601574618 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 9315e0ff6dd7c624a970a3bde3b2369a, type: 3}
+  m_PrefabInternal: {fileID: 1601574617}
 --- !u!1001 &1606518353
 Prefab:
   m_ObjectHideFlags: 0
@@ -616,6 +627,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2513dda9ecc025e4dbbe117f5ef11d92, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1606518354 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 2513dda9ecc025e4dbbe117f5ef11d92, type: 3}
+  m_PrefabInternal: {fileID: 1606518353}
 --- !u!1 &1800662808
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,7 +743,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -808,6 +823,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d37fcbb9dad4e448b0c85fb6697c498, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1939857443 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 8d37fcbb9dad4e448b0c85fb6697c498, type: 3}
+  m_PrefabInternal: {fileID: 1939857442}
 --- !u!1 &2041185713
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +933,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2100221139}
+  - component: {fileID: 2100221140}
   m_Layer: 0
   m_Name: SolarSystemManager
   m_TagString: Untagged
@@ -934,3 +954,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2100221140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100221138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9442c438c8db0074780e3123df04b12c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetList:
+  - {fileID: 566090138}
+  - {fileID: 1414988812}
+  - {fileID: 1601574618}
+  - {fileID: 1939857443}
+  - {fileID: 1606518354}
+  - {fileID: 935851020}
+  - {fileID: 1131361877}
+  - {fileID: 1311530371}
+  - {fileID: 724623744}
+  earthspeedScale: 1

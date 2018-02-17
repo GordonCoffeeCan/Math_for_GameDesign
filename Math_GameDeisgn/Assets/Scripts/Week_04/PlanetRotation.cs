@@ -16,13 +16,8 @@ public class PlanetRotation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Vector3 _planetPos = PointOnCircle(radius, Time.time * speed);
-
-        this.transform.position = _planetPos;
+        
 	}
 
-    private Vector3 PointOnCircle(float _radius, float _angle) {
-        float _angleInRadius = _angle * Mathf.Deg2Rad;
-        return new Vector3(radius * Mathf.Cos(_angleInRadius), 0, radius * Mathf.Sin(_angleInRadius));
-    }
+    
 }
