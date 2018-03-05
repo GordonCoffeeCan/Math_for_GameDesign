@@ -29,4 +29,8 @@ public class RotationTransformation : Transformation {
             return _matrix;
         }
     }
+
+    private void Update() {
+        rotation = new Vector3(rotation.x, rotation.y, Time.time * 50);
+    }
 }
