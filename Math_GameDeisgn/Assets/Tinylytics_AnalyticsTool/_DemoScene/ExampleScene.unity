@@ -378,7 +378,7 @@ MonoBehaviour:
       m_Type: System.Int32
       m_EnumType: 
   trigger:
-    triggerEvent: 6
+    triggerEvent: 4
 --- !u!4 &1348912344
 Transform:
   m_ObjectHideFlags: 0
