@@ -1,0 +1,12 @@
+The tracked data is to test the game balance and the game designer will easily to rebalance the game through the data analysis.
+
+The key metrics are player's level, health, playing time, the enemies killed, and the result of the game (win or lose).
+
+Comparing the player's properties (level, health; health will be increased by the player's level) to the game time and enemies the player kill will understand the game is well balanced or unbalanced (could be too easy and too hard).
+
+In the program, the system will automatically through the result of game balance by analyzing the metrics above.
+
+This is my simple concept of the game balance tracking system.
+
+Data base link:
+https://docs.google.com/spreadsheets/d/1QzlPa1HytADIXTthQ4Le602_71laCNPejrHega2lCKI/edit?usp=sharing
