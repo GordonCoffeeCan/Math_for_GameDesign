@@ -1,0 +1,14 @@
+WASD to rotate the player.
+
+Capture the dots have the same color of the player.
+
+Rules:
+
+Captured the dot has the same color, gain 1 score.
+Captured the dot has the different color, lose 1 score.
+Bounced the dot has the same color, lose 1 score.
+Bounced the dot has the different color, won't gain or lose the score.
+
+This project is only the demo of my concept.
+
+To get a better experience, playing with Xbox One or Xbox 360 controller.
